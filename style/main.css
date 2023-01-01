@@ -6,8 +6,8 @@
   --clr-bg-primary: hsl(0, 2%, 12%);
   --clr-bg-secondary: hsl(0, 3%, 15%);
   --clr-white-100: hsl(0, 0%, 100%);
-  --clr-red-200: rgb(195, 55, 55);
-  --clr-gray: hsl(0, 3%, 36%);
+  --clr-red-200: #c33737;
+  --clr-gray: #5f5959;
 
   /*===== body weights =====*/
   --fm: "Poppins", sans-serif;
@@ -373,19 +373,22 @@ a {
   right: 0;
 }
 .card:nth-of-type(1) .card__header {
-  background-image: url("../images/cards/1.webp");
+  background-image: url("../images/cards/przyciemnianie-szyb.jpg");
 }
 .card:nth-of-type(2) .card__header {
-  background-image: url("../images/cards/2.webp");
+  background-image: url("../images/cards/oklejanie-folia.jpg");
 }
 .card:nth-of-type(3) .card__header {
-  background-image: url("../images/cards/4.webp");
+  background-image: url("../images/cards/detailing.jpg");
+  background-position: center;
 }
 .card:nth-of-type(4) .card__header {
-  background-image: url("../images/cards/3.webp");
+  background-image: url("../images/cards/zmiana-koloru.jpg");
+  background-position: 70%;
 }
 .card:nth-of-type(5) .card__header {
-  background-image: url("../images/cards/6.webp");
+  background-image: url("../images/cards/korekta-lakieru.jpg");
+  background-position: 50%;
 }
 .card:nth-of-type(6) .card__header {
   background-image: url("../images/cards/5.webp");
@@ -494,6 +497,12 @@ a {
 /*===== section 2==== */
 .section-2 {
   padding-bottom: 4rem;
+  background-image: url("../images/assets/polygon-scatter-haikei.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+
+  z-index: 99999;
 }
 .sections:last-of-type h2 {
   text-align: left;
